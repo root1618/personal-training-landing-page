@@ -1,0 +1,58 @@
+body {
+    background-color: #557C8E;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-image: url('space.jpg');
+    position: relative;
+    min-height: 100px; 
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+}
+
+.button {
+    background-color: #2B4451;
+    float: left;
+    height: 40px;
+    width: 100px;
+    margin: 10px;
+    margin-top: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px; 
+    opacity: 0.6;
+}
+
+.button-name {
+    color: #A6C6D3;
+    margin: 10px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #557C8E;
+    opacity: 1;
+}
+
+.main {
+    position: relative;
+    background-color: #2B4451;
+    top: 10px;
+    left: 10%;
+    width: 80%;
+    min-height: 350px;
+    border: solid #A6C6D3 2px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 100px;
+    color: #A6C6D3;
+    text-align: center;
+    font-size: 30px;
+}
+
+.myPhoto {
+    display: none;
+}
